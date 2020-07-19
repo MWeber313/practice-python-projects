@@ -1,5 +1,5 @@
-class BinarySearchTree(self, value):
-    def __init__:
+class BinarySearchTree:
+    def __init__(self, value):
         self.value = value
         self.left = None
         self.right = None
@@ -13,3 +13,18 @@ class BinarySearchTree(self, value):
             self.left.insert(value)
         else:
             self.right.insert(value)
+
+    def print_node(self):
+        if self.left:
+            self.left.print_node()
+        elif self.right:
+            self.right.print_node()
+        else:
+            print(self.value)
+
+
+a = BinarySearchTree(42)
+a.insert(33)
+a.insert(99)
+
+a.print_node
