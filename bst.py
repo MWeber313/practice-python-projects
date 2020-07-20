@@ -11,7 +11,6 @@ class BinarySearchTree:
             self.right = BinarySearchTree(value)
 
     def print_node(self):
-        print(self.value)
         if self.left:
             self.left.print_node()
 
