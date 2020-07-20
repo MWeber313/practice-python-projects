@@ -28,6 +28,34 @@ class BinarySearchTree:
         if self.left:
             self.left.print_node_descending()
 
+    def fill_tree_halves(self):
+        print('please insert a number between 2-99 to be halved')
+
+        value = int(input())
+
+        new_tree = BinarySearchTree(int(value))
+
+        filling = True
+
+        while filling:
+
+            if value <= 1:
+                filling = False
+
+            elif value >= 100:
+                filling = False
+
+            elif new_tree.value > value:
+                self.left.insert(value // 2)
+            
+            elif new_tree.value < value:
+                self.right.insert(value * 2)
+
+        print('ascending')
+        new_tree.print_node_ascending()
+        print('descending')
+        new_tree.print_node_descending()
+
 
 a = BinarySearchTree(42)
 a.insert(33)
