@@ -62,3 +62,4 @@ a.insert(99)
 
 a.print_node_ascending()
 a.print_node_descending()
+a.fill_tree_halves()
