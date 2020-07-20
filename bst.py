@@ -9,10 +9,10 @@ class BinarySearchTree:
             self.left = BinarySearchTree(value)
         elif value > self.value and self.right is None:
             self.right = BinarySearchTree(value)
-        elif value <= self.value and self.left:
-            self.left.left = BinarySearchTree(value)
-        elif value > self.value and self.right:
-            self.right.right = BinarySearchTree(value)
+        # elif value <= self.value and self.left:
+        #     self.left.insert = BinarySearchTree(value)
+        # elif value > self.value and self.right:
+        #     self.right.insert = BinarySearchTree(value)
 
     def print_node_ascending(self):
         if self.left:
