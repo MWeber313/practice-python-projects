@@ -14,10 +14,12 @@ class BinarySearchTree:
         print(self.value)
         if self.left:
             self.left.print_node()
-        elif self.right:
+
+        print(self.value)
+
+        if self.right:
             self.right.print_node()
-        else:
-            print(self.value)
+        
 
 
 a = BinarySearchTree(42)
