@@ -26,7 +26,7 @@ class BinarySearchTree:
         print (self.value)
 
         if self.left:
-            self.right.print_node_descending()
+            self.left.print_node_descending()
 
 
 a = BinarySearchTree(42)
