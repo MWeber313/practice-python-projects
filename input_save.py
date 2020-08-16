@@ -4,6 +4,7 @@
 
 # A simple input
 
-x = input('Please type something here')
-response = F"Hello, you said: {x}"
+print('Please type something here:')
+x = input('')
+reponse = "Hello, you said: {}".format(x)
 print(response)
