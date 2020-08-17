@@ -5,7 +5,6 @@
 # A simple input
 
 print('Please type something here:')
-x = input('')
-x = str(x)
+x = str(input(''))
 reponse = "Hello, you said this: {}".format(x)
 print(response)
