@@ -32,7 +32,19 @@ answer1 = raw_input()
 
 if answer1 == 'raw':
     print('Thank you for choosing Raw Input')
-    
+    print('Please choose a data type you would like to use!')
+    print('String')
+    print('Integer')
+    print('Boolean')
+    rawanswer = raw_input()
+    if rawanswer == 'String':
+        print('You have chosen: String!')
+        
+    elif rawanswer == 'Integer':
+        print('You have chosen: Integer!')
+
+    else rawanswer == 'Boolean':
+        print('You have chosen: Boolean!')
 
 else:
     print('Thank you for choosing Standard Input!')
