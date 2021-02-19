@@ -45,3 +45,4 @@ print(specialCharacter2)
 password=uppercaseLetter1+uppercaseLetter2+lowercaseLetter1+lowercaseLetter2+digit1+digit2+specialCharacter1+specialCharacter2
 password=shuffle(password)
 print(password)
+
