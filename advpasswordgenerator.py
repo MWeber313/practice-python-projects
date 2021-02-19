@@ -27,4 +27,3 @@ print("Do you want special characters?")
 
 specCharResponse = input('')
 
-pyperclip.copy("This text has been copied to the clipboard")
