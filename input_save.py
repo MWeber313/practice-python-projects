@@ -28,7 +28,7 @@ instruction = "Please choose an input type"
 print('raw')
 print('standard')
 
-answer1 = raw_input()
+answer1 = input()
 
 if answer1 == 'raw':
     print('Thank you for choosing Raw Input')
@@ -36,14 +36,14 @@ if answer1 == 'raw':
     print('String')
     print('Integer')
     print('Boolean')
-    rawanswer = raw_input()
+    rawanswer = input()
     if rawanswer == 'String':
         print('You have chosen: String!')
         
     elif rawanswer == 'Integer':
         print('You have chosen: Integer!')
 
-    else rawanswer == 'Boolean':
+    elif rawanswer == 'Boolean':
         print('You have chosen: Boolean!')
 
 else:
