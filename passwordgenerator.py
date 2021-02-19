@@ -3,6 +3,13 @@ import random
 # This password generator will take 4 pairs of 4 different types of characters:
 # lowercase, uppercase, integer, special character
 
+# need to make a shuffle function:
+
+def shuffle(string):
+    tempString = list(string)
+    random.shuffle(tempString)
+    return ''.join(tempString)
+
 # Upper Case 1
 uppercaseLetter1=chr(random.randint(65,90))
 print(uppercaseLetter1)
@@ -36,5 +43,5 @@ specialCharacter2=chr(random.randint(33, 96))
 print(specialCharacter2)
 
 password=uppercaseLetter1+uppercaseLetter2+lowercaseLetter1+lowercaseLetter2+digit1+digit2+specialCharacter1+specialCharacter2
-random.shuffle(password)
+password=shuffle(password)
 print(password)
