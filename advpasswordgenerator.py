@@ -1,7 +1,7 @@
 # This will be an advanced password generator that will generate a password with a given length
 # You will also decide if you want uppercase letters, lowercase letters, numbers or special characters
 import random
-
+import pyperclip
 
 print(
     "Welcome to Mack's Password Generator! Please answer a few questions and your password will be generated!"
@@ -26,3 +26,5 @@ integerResponse = input('')
 print("Do you want special characters?")
 
 specCharResponse = input('')
+
+pyperclip.copy("This text has been copied to the clipboard")
