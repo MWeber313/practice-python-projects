@@ -7,21 +7,20 @@ while True:
     print(
         "Welcome to Mack's Password Generator! Please answer a few questions and your password will be generated!"
     )
-    continue
+    
 
     print("How long do you want your password?")
 
     lengthResponse = input('')
 
     while True:
-        if lengthResponse = int():
+        if type(lengthResponse) is int:
             lengthResponseInput == int(lengthResponse)
             continue
         else:
             break
             print("Please only use a whole number")
             
-
     print("Do you want uppercase letters? Y/N")
 
     upperResponse = input('')
