@@ -13,7 +13,14 @@ while True:
 
     lengthResponse = input('')
 
-    if lengthResponse =
+    while True:
+        if lengthResponse = int():
+            lengthResponseInput == int(lengthResponse)
+            continue
+        else:
+            break
+            print("Please only use a whole number")
+            
 
     print("Do you want uppercase letters? Y/N")
 
