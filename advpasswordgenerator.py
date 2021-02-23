@@ -1,29 +1,41 @@
 # This will be an advanced password generator that will generate a password with a given length
 # You will also decide if you want uppercase letters, lowercase letters, numbers or special characters
 import random
-import pyperclip
+# pyperclip will be the copy to clipboard tool
 
-print(
-    "Welcome to Mack's Password Generator! Please answer a few questions and your password will be generated!"
-)
+while True:
+    print(
+        "Welcome to Mack's Password Generator! Please answer a few questions and your password will be generated!"
+    )
+    continue
 
-print("How long do you want your password?")
+    print("How long do you want your password?")
 
-lengthResponse= input('')
+    lengthResponse = input('')
 
-print("Do you want uppercase letters? Y/N")
+    if lengthResponse =
 
-upperResponse = input('')
+    print("Do you want uppercase letters? Y/N")
 
-print("Do you want lowercase letters? Y/N")
+    upperResponse = input('')
+    if upperResponse == 'Y' or upperResponse == 'y':
+        upperResponseInput == True
+        continue
+    elif upperResponse == 'N' or upperResponse == 'n':
+        upperResponseInput == False
+        continue
+    else:
+        print("Please use only Y or N, case does not matter.")
 
-lowerResponse = input('')
+    print("Do you want lowercase letters? Y/N")
 
-print("Do you want numbers/integers?")
+    lowerResponse = input('')
 
-integerResponse = input('')
+    print("Do you want numbers/integers?")
 
-print("Do you want special characters?")
+    integerResponse = input('')
 
-specCharResponse = input('')
+    print("Do you want special characters?")
+
+    specCharResponse = input('')
 
