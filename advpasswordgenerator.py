@@ -28,10 +28,12 @@ while True:
     upperResponse = input('')
 
     while True:
-        if upperResponse != str:
+        if isInstance(upperResponse, str):
+            print(type(upperResponse))
             print("Response must be a string")
             break
-        if upperResponse == 'Y' or upperResponse == 'y':
+
+        elif upperResponse == 'Y' or upperResponse == 'y':
             upperResponseInput = True
             continue
         elif upperResponse == 'N' or upperResponse == 'n':
