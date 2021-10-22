@@ -54,8 +54,8 @@ if correctCheck == 'N' or correctCheck == 'n':
 passArray = {}
 
 for i in range(0, passLength):
-    charSelect = random(upperVar, lowerVar, numberVar, symbolVar)
-    if charSelect == upperVar:
+    charSelect = random.randrange(0, 100)
+    if charSelect in range (0, 25):
         charSelect == random('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
         passArray.push(charSelect)
 
