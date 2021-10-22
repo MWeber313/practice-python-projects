@@ -12,5 +12,5 @@
 
 currency_value = input("Please give me the value in whole units of currency: ")
 currency_value = int(currency_value)
-print(f"You currently have {currency_value}")
-print(type(currency_value))
+currency_type = input("Please tell me the type of currency you are converting: ")
+print(f"You currently have {currency_value} {currency_type}")
