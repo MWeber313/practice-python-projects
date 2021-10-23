@@ -40,3 +40,53 @@ classChoice = random.choice([
 ])
 
 print(classChoice)
+
+print('Or make a class with the following attributes')
+
+attributeList = [
+    'Agility',
+    'Endurance',
+    'Intelligence',
+    'Luck',
+    'Perception',
+    'Speed',
+    'Strength',    
+]
+
+attributeChoiceOne = random.choice(attributeList)
+
+attributeList.remove(attributeChoiceOne)
+
+attributeChoiceTwo = random.choice(attributeList)
+
+print(
+    attributeChoiceOne,
+    attributeChoiceTwo
+)
+
+skillList = [
+    'Armorer',
+    'Athletics',
+    'Blade',
+    'Block',
+    'Blunt',
+    'Hand to Hand',
+    'Heavy Armor',
+    'Alchemy',
+    'Alteration',
+    'Conjuration',
+    'Destruction',
+    'Illusion',
+    'Mysticism',
+    'Restoration',
+    'Acrobatics',
+    'Light Armor',
+    'Marksman',
+    'Mercantile',
+    'Security'
+    'Sneak',
+    'Speechcraft'
+]
+
+skillChoiceOne = random.choice(skillList)
+
