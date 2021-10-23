@@ -88,5 +88,32 @@ skillList = [
     'Speechcraft'
 ]
 
+print('These are your skills')
+
 skillChoiceOne = random.choice(skillList)
 
+skillList.remove(skillChoiceOne)
+
+skillChoiceTwo = random.choice(skillList)
+
+skillList.remove(skillChoiceTwo)
+
+skillChoiceThree = random.choice(skillList)
+
+skillList.remove(skillChoiceThree)
+
+skillChoiceFour = random.choice(skillList)
+
+skillList.remove(skillChoiceFour)
+
+skillChoiceFive = random.choice(skillList)
+
+skillList.remove(skillChoiceFive)
+
+skillChoiceSix = random.choice(skillList)
+
+skillList.remove(skillChoiceSix)
+
+skillChoiceSeven = random.choice(skillList)
+
+print(skillChoiceOne, skillChoiceTwo, skillChoiceThree, skillChoiceFour, skillChoiceFive, skillChoiceSix, skillChoiceSeven)
