@@ -137,3 +137,15 @@ skillList.remove(skillChoiceSix)
 skillChoiceSeven = random.choice(skillList)
 
 print(skillChoiceOne, skillChoiceTwo, skillChoiceThree, skillChoiceFour, skillChoiceFive, skillChoiceSix, skillChoiceSeven)
+
+difficultyChoice = random.choice([
+    'Very Easy',
+    'Easy',
+    'Medium',
+    'Hard',
+    'Very Hard'
+])
+
+print('This is the difficulty you will play at, good luck!')
+
+print(difficultyChoice)
