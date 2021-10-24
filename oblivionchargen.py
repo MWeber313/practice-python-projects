@@ -1,6 +1,12 @@
 # This will generate a brand new character for gameplay in Oblivion
 import random
 
+sexChoice = random.choice(['Male', 'Female'])
+
+print('This is the sex your character will be')
+
+print(sexChoice)
+
 raceChoice = random.choice([
     'Argonian', 
     'Breton',
@@ -41,7 +47,21 @@ classChoice = random.choice([
 
 print(classChoice)
 
-print('Or make a class with the following attributes')
+print('Or make a class with the following specialization, attributes and skills')
+
+print('This is your specialization')
+
+specializationList = [
+    'Combat',
+    'Magic',
+    'Stealth'
+]
+
+specializationChoice = random.choice(specializationList)
+
+print(specializationChoice)
+
+print('These are your attributes')
 
 attributeList = [
     'Agility',
@@ -83,7 +103,7 @@ skillList = [
     'Light Armor',
     'Marksman',
     'Mercantile',
-    'Security'
+    'Security',
     'Sneak',
     'Speechcraft'
 ]
