@@ -19,7 +19,27 @@ raceChoice = random.choice([
     'Wood Elf'
     ])
 
+print('This is the race your character will be')
 print(raceChoice)
+
+birthsignChoice = random.choice([
+    'Apprentice',
+    'Atronach',
+    'Lady',
+    'Lord',
+    'Lover',
+    'Mage',
+    'Ritual',
+    'Serpent',
+    'Shadow',
+    'Steed',
+    'Thief',
+    'Tower',
+    'Warrior'
+])
+
+print('This is the birthsign you will choose')
+print(birthsignChoice)
 
 classChoice = random.choice([
     'Acrobat',
@@ -45,6 +65,7 @@ classChoice = random.choice([
     'Witchhunter'
 ])
 
+print('This is the prebuilt class you can use')
 print(classChoice)
 
 print('Or make a class with the following specialization, attributes and skills')
